@@ -14,9 +14,9 @@ export default function Error({
 	}, [error])
 
 	return (
-		<div>
-			<h2>Oh no. Something is very wrong.</h2>
-			<button onClick={() => reset()}>Try again</button>
-		</div>
+		<main className="min-h-full flex flex-col items-center justify-center flex-1 mx-8 my-24">
+			<h2>Oh no! Something is very wrong.</h2>
+			<button onClick={() => reset()}>Please try to reload the page</button>
+		</main>
 	)
 }

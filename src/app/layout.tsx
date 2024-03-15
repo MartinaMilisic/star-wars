@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
 	title: {
 		template: '%s | Star Wars Films',
-		default: 'Star Wars Films' // a default is required when creating a template
+		default: 'Star Wars Films'
 	},
 	description: 'The most awesome list of Star Wars films'
 }
