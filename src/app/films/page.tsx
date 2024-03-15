@@ -1,5 +1,10 @@
 import { FilmList } from '@/components/film-list'
+import { Metadata } from 'next'
 import { Suspense } from 'react'
+
+export const metadata: Metadata = {
+	title: 'Films'
+}
 
 export default function Page() {
 	return (
